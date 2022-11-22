@@ -12,47 +12,37 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body>  
-     <div class="container">
-        <section class="section-head">             
-            <header class="header">
-                <div>
-                    <nav class="header-nav">
-                        <a href="./index.html" class="header-logo link" lang="en">Web<span>Studio</span></a>   
-                        <ul class="header-list list">
-                            <li class="header-item"><a class="header-link link  current" href="./index.html">Студія</a></li>
-                            <li class="header-item"><a class="header-link link" href="./portfolio.html">Портфоліо</a></li>
-                            <li class="header-item"><a class="header-link link" href="contacts.html">Контакти</a></li>
-                        </ul>
-                    </nav>
-
-                </div>
-                <div>
-                    <ul class="contacts list">
-                        <li class="header-contacts"> <a class="header-contnum link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li class="header-contacts"> <a class="header-conttel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                    </ul>
-                </div>
-
-
-            </header>
-
-        </section>
-
-    </div>
-
+<body>     
+    <header class="header">
+        <div class="container header">
+            <nav class="header-nav">
+                <a href="./index.html" class="header-logo link" lang="en">Web<span>Studio</span></a>   
+                <ul class="header-list list">
+                    <li class="header-item"><a class="header-link link  current" href="./index.html">Студія</a></li>
+                    <li class="header-item"><a class="header-link link" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="header-item"><a class="header-link link" href="contacts.html">Контакти</a></li>
+                 </ul>
+             </nav>
+                <ul class="contacts list">
+                     <li class="header-contacts"> <!--<svg class="" width="" heigh=""><use href=""></use></svg>--><a class="header-contnum link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                     <li class="header-contacts"> <a class="header-conttel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+       </div>
+    </header>        
+    
 
     <main>
-        <div class="container">
-            <section class="hero section">
-                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+         <section class="hero section">
+            <div class="section">
+                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
                  <button class="hero-button button" type="button" name="order">Замовити послугу</button>
-            </section>
-        </div>
+            </div>
+         </section>
 
-        <div class="container">
+       
              <section class="benefits section">
-                     <h2 class="benefits-title visually-hidden">Наші переваги</h2>
+                <div>
+                    <h2 class="benefits-title visually-hidden">Наші переваги</h2>
                           <ul class="benefits-list list">
                             <li class="benefits-item">
                                 <h3 class="benefits-headline">Увага до деталей</h3>
@@ -71,23 +61,26 @@
                                 <p class="benefits-notes">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                             </li>
                          </ul>
+                </div>
             </section>
-        </div>
 
-        <div class="container">
+
+        
             <section class="activity section">
+                <div class="container">
                 <h2 class="activity-title">Чим ми займаємося</h2>
                 <ul class="activity-list list">
                     <li class="activity-item"><img src="./images/liudyna-pratsiuie-za-kompiuterom.jpg" alt="Людина працює за комп'ютером" width="370"></li>
                     <li class="activity-item"><img src="./images/liudyna-pratsiuie-z-telefonom-ta-kompiuterom.jpg" alt="Людина працює  з телефоном та комп'ютером" width="370"></li>
                     <li class="activity-item"><img src="./images/liudyna-pratsiuie-za-planshetom-ta-kompiuterom.jpg" alt="Людина працює за планшетом та комп'ютером" width="370"></li>
                 </ul>
+                </div>
             </section>
-        </div>
+        
 
 
-        <div class="container">
-                <section class="team section">
+        <section class="team section">
+            <div class="container">
                     <h2 class="team-title">Наша команда</h2>
                     <ul class="team-list list">
                         <li class="team-item">
@@ -111,27 +104,27 @@
                             <p class="team-notes">UI Designer</p>
                         </li>
                     </ul>
-             </section>
-        </div>
+
+            </div>
+        </section>
     </main>
 
-    
+<!--FOOTER-->
 
- <div class="container">
-        <section class="section-footer">
+
+
                 <footer class="footer">
-                    <div class="footer-contacts">
+                     <div class="container">
                         <a href="./index.html" class="footer-logo link" lang="en">Web<span>Studio</span></a>
                         <address class="adress-footer">
                         <ul class="adress-list list">
                             <li class="adress-find"><a class="footer-link link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Украінки, 26</a></li>
                             <li class="adress-item"><a class="footer-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                             <li class="adress-item"><a class="footer-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                        </ul>   
+                        </ul>
                     </div>
-             </footer>
-        </section>
- </div>
+                </footer>
+
 
 </body>
 </html>
