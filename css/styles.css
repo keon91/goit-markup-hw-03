@@ -18,14 +18,36 @@
     background-color: var(--color-brand-second);
     font-size: 16px; 
     font-weight: 500;
-    
-} 
+
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;}
+
 a {
     text-decoration: none ;
 }
-ul {
+
+ul, ol {
     list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
 }
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* .container { 
+max-width: 
+padding-left:  
+padding-right:  
+margin-left:  
+margin-right:  
+} */
 
 .visually-hidden {
   position: absolute;
