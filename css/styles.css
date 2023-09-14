@@ -9,6 +9,7 @@
   --color-text:#434455;
   --color-modal:#2E2F42;
   --color-modal-bgc:#FCFCFC;
+  --color-border:#E7E9FC;
   
 }
 /*____________BODY___________________*/
@@ -267,7 +268,7 @@ margin: 0 auto;
 }
 .team{
     background-color: var(--color-brand-second);
-    border-radius: 0px 0px 4px 4px; ?
+    border-radius: 0px 0px 4px 4px; 
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
 }
@@ -292,7 +293,9 @@ margin: 0 auto;
     margin-bottom: 72px;
     
 }
-
+.portfolio{
+    border: 1px solid var(--color-border); 
+}
 .portfolio-list{
    
     display: flex;
@@ -301,12 +304,12 @@ margin: 0 auto;
     row-gap:48px ;
     
     
+    
 }
 
 .potfolio-item{
-    max-width:calc((100%-48px)/3); 
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-
+    max-width:calc((100%-48px)/3);
+    
     
 }
 
