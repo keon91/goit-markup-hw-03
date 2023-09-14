@@ -73,7 +73,10 @@ margin: 0 auto;
 
 .nav-list{
     display: flex;
-    gap:76px;
+    gap:24px;
+    align-items: baseline;
+    flex-grow: 1;
+   justify-content: flex-start;
 }
 
 .logo {
