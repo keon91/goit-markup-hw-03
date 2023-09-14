@@ -61,8 +61,23 @@ margin: 0 auto;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/*HEADER*/
+.header{
+    padding: 24px 0 24px;
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav-list{
+    display: flex;
+    gap:76px;
+}
 
 .logo {
+    display: flex;
     color:var(--color-brand);
     font-family: 'Raleway' , sans-serif;
     font-size: 18px;
@@ -70,11 +85,16 @@ margin: 0 auto;
     line-height: 1.17;  
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
 .logo-accent{
     color:var(--color-title);
 }
 
+.header-nav-menu {
+    display: flex;
+    gap:40px;
+}
 .nav-link{
     color:var(--color-title);
     line-height: 1.5; 
@@ -84,6 +104,11 @@ margin: 0 auto;
     color:var(--color-pressed);
 }
 
+.contacts-list{
+    display: flex;
+    gap:40px;   
+   
+}
 .contacts-item a{
     color: var(--color-text);
     font-style: normal;
@@ -95,7 +120,9 @@ margin: 0 auto;
     color:var(--color-pressed);
 }
 
-address{font-style: normal;}
+address{
+    font-style: normal;
+}
 
 /* HERO SECTION START 1*/
 
